@@ -1,0 +1,50 @@
+/*Copyright Ram Senthil github @ramenoodles*/
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    border: solid black 1px;
+    overflow-y: auto;
+}
+
+tr:nth-child(even){ /* Even rows get light gray for readability */
+    background-color: lightgray;
+}
+
+tr:nth-child(odd){ /* Odd rows get light blue for readability */
+    background-color: lightcyan;
+}
+
+/*https://css-tricks.com/useful-nth-child-recipies/*/
+
+td{
+    padding: 5px;
+    padding-right:5px;
+    text-align: center;
+}
+
+thead th{
+    position: sticky;
+}
+
+
+th{ /* Header styling for readability*/
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: blue;
+    color: white
+}
+
+label.error {
+    color: red;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input.error {
+    border: 2px solid red;
+}
