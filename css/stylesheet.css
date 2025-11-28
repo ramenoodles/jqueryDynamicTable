@@ -37,7 +37,7 @@ th{ /* Header styling for readability*/
     color: white
 }
 
-label.error {
+label.error {  /* Error message styling */
     color: red;
     font-size: 0.9em;
     display: block;
@@ -45,6 +45,6 @@ label.error {
     margin-bottom: 10px;
 }
 
-input.error {
+input.error { /* Input field styling for errors */
     border: 2px solid red;
 }
